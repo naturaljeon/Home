@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>포트폴리오 홈페이지</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">홈</a></li>
+        <li><a href="#about">소개</a></li>
+        <li><a href="#portfolio">포트폴리오</a></li>
+        <li><a href="#blog">블로그</a></li>
+        <li><a href="#contact">연락처</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>전준현의 포트폴리오</h1>
+      <p>안녕하세요, 제 이름은 전준현입니다. 저는 한성대학교 문학문화콘텐츠학과 교수입니다.</p>
+    </section>
+
+    <section id="about">
+      <h2>소개</h2>
+      <!-- 자기소개, 경력, 학력, 기술 등 내용을 추가하세요. -->
+    </section>
+
+<style>
+/* styles.css */
+/* 중간 생략 */
+
+.project, .post {
+  margin-bottom: 2rem;
+}
+
+.project a, .post a {
+  color: #333;
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+.project a:hover, .post a:hover {
+  text-decoration: underline;
+}
+</style>
+
+    <section id="portfolio">
+      <h2>포트폴리오</h2>
+      <div class="project">
+        <h3>프로젝트 1</h3>
+        <p>프로젝트 1에 대한 설명입니다. 이 프로젝트에서 사용된 기술과 도구, 그리고 목표와 결과를 설명합니다.</p>
+        <a href="https://example.com/project1">자세히 보기</a>
+      </div>
+      <div class="project">
+        <h3>프로젝트 2</h3>
+        <p>프로젝트 2에 대한 설명입니다. 이 프로젝트에서 사용된 기술과 도구, 그리고 목표와 결과를 설명합니다.</p>
+        <a href="https://example.com/project2">자세히 보기</a>
+      </div>
+      <!-- 추가 프로젝트를 이곳에 추가하세요. -->
+    </section>
+
+    <section id="blog">
+      <h2>블로그</h2>
+      <div class="post">
+        <h3>블로그 글 1</h3>
+        <p>블로그 글 1에 대한 간략한 설명입니다.</p>
+        <a href="https://example.com/blog1">자세히 보기</a>
+      </div>
+      <div class="post">
+        <h3>블로그 글 2</h3>
+        <p>블로그 글 2에 대한 간략한 설명입니다.</p>
+        <a href="https://example.com/blog2">자세히 보기</a>
+      </div>
+      <!-- 추가 블로그 글을 이곳에 추가하세요. -->
+    </section>
+
+<style>
+/* styles.css */
+/* 중간 생략 */
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+input[type="text"], input[type="email"], textarea {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+input[type="submit"]:hover {
+  background: #555;
+}
+</style>
+
+    <section id="contact">
+      <h2>연락처</h2>
+      <p>문의 사항이 있으시면 아래 양식을 작성해 주세요.</p>
+      <form action="contact-form-handler.php" method="post">
+        <label for="name">이름</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">이메일</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">메시지</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="메시지 보내기">
+      </form>
+    </section>
+
+  <footer>
+    <p>&copy; 2023 전준현. 모든 권리 보유.</p>
+  </footer>
+</body>
+</html>
