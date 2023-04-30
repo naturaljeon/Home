@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #333;
+  padding: 1rem 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.project, .post {
+  margin-bottom: 2rem;
+}
+
+.project a, .post a {
+  color: #333;
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+.project a:hover, .post a:hover {
+  text-decoration: underline;
+}
